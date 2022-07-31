@@ -1,0 +1,170 @@
+[
+  {
+    "Option-b:": "means inspections are not required.",
+    "Option-a:": "makes test preparation easier.",
+    "Answer: ": "c",
+    "Question": "Q1: The most important thing about early test design is that it?",
+    "Option-d:": "will find all faults.",
+    "Option-c:": "can prevent fault multiplication."
+  },
+  {
+    "Option-b:": "departure from specified behavior.",
+    "Option-a:": "found in the software; the result of an error.",
+    "Answer: ": "b",
+    "Question": "Q2 : A failure is?",
+    "Option-d:": "a human action that produces an incorrect result.",
+    "Option-c:": "an incorrect step, process or data definition in a computer program."
+  },
+  {
+  "Option-b:": "test planning..",
+  "Option-a:": "test recording..",
+  "Answer: ": "c",
+  "Question": "Q3: Test cases are designed during?",
+  "Option-d:": "test configuration.",
+  "Option-c:": "test specification."
+},
+  {
+    "Option-b:": "the analysis of batch programs.",
+    "Option-a:": "the reviewing of test plansr.",
+    "Answer: ": "d",
+    "Question": "Q4 : Static analysis is best described as?",
+    "Option-d:": "the analysis of program code.",
+    "Option-c:": "the use of black box testing."
+  },
+  {
+    "Option-b:": "the first testing that is performed.",
+    "Option-a:": "post-release testing by end user representatives at the developer’s site.",
+    "Answer: ": "c",
+    "Question": "Q5: Alpha testing is?",
+    "Option-d:": "pre-release testing by end user representatives at their sites.",
+    "Option-c:": "pre-release testing by end user representatives at the developer’s site."
+  },
+  {
+    "Option-b:": "An inspection has a trained leader, whilst a walkthrough has no leader.",
+    "Option-a:": "An inspection is lead by the author, whilst a walkthrough is lead by a trained moderator.",
+    "Answer: ": "d",
+    "Question": "Q6 : What is the main difference between a walkthrough and an inspection?",
+    "Option-d:": "A walkthrough is lead by the author, whilst an inspection is lead by a trained moderator.",
+    "Option-c:": "Authors are not present during inspections, whilst they are during walkthroughs."
+  },
+  {
+    "Option-b:": "Path testing.",
+    "Option-a:": "Statement testing",
+    "Answer: ": "d",
+    "Question": "Q7: Which of the following is NOT a white box technique?",
+    "Option-d:": "State transition testing",
+    "Option-c:": "Data flow testing"
+  },
+  {
+    "Option-b:": "Usability testing",
+    "Option-a:": "Boundary value analysis",
+    "Answer: ": "a",
+    "Question": "Q8 : Which of the following is a form of functional testing?",
+    "Option-d:": "Security testing.",
+    "Option-c:": "Performance testing."
+  },
+  {
+    "Option-b:": "It only models the testing phase.",
+    "Option-a:": "It states that modules are tested against user requirements.",
+    "Answer: ": "d",
+    "Question": "Q9: Which of the following is true of the V-model?",
+    "Option-d:": "It includes the verification of designs.",
+    "Option-c:": "It specifies the test techniques to be used."
+  },
+  {
+    "Option-b:": "equivalence partitioning.",
+    "Option-a:": "syntax testing.",
+    "Answer: ": "c",
+    "Question": "Q10 :Which of the following is not described in a unit test standard?",
+    "Option-d:": "modified condition/decision coverage.",
+    "Option-c:": "stress testing."
+  },
+  {
+    "Option-b:": "the required level of confidence has been achieved.",
+    "Option-a:": "time runs out.",
+    "Answer: ": "b",
+    "Question": "Q11: Enough testing has been performed when?",
+    "Option-d:": "the users won’t find any serious faults.",
+    "Option-c:": "no more faults are found."
+  },
+  {
+    "Option-b:": "can only be used in component, integration and system testing.",
+    "Option-a:": "supplements formal test design techniques.",
+    "Answer: ": "a",
+    "Question": "Q12 : Error guessing?",
+    "Option-d:": "is not repeatable and should not be used.",
+    "Option-c:": "is only performed in user acceptance testing."
+  },
+  {
+    "Option-b:": "Integration testing.",
+    "Option-a:": "Regression testing.",
+    "Answer: ": "a",
+    "Question": "Q13: Which of the following is likely to benefit most from the use of test tools providing test capture and replay facilities?",
+    "Option-d:": "ser acceptance testing.",
+    "Option-c:": "System testing."
+  },
+  {
+    "Option-b:": "a fault.",
+    "Option-a:": "an error.",
+    "Answer: ": "c",
+    "Question": "Q14 :A deviation from the specified or expected behavior that is visible to end-users is called?",
+    "Option-d:": "a defect.",
+    "Option-c:": "a failure."
+  },
+  {
+    "Option-b:": "status accounting of configuration items.",
+    "Option-a:": "auditing conformance to ISO 9000.",
+    "Answer: ": "a",
+    "Question": "Q15:Which of the following is NOT part of configuration management?",
+    "Option-d:": "controlled library access.",
+    "Option-c:": "identification of test versions."
+  },
+  {
+    "Option-b:": "when time has run out.",
+    "Option-a:": "when all the planned tests have been run.",
+    "Answer: ": "d",
+    "Question": "Q16 : When should testing be stopped?",
+    "Option-d:": "it depends on the risks for the system being tested",
+    "Option-c:": "when all faults have been fixed correctly."
+  },
+  {
+    "Option-b:": "documentation.",
+    "Option-a:": "requirements.",
+    "Answer: ": "d",
+    "Question": "Q17: Incidents would not be raised against?",
+    "Option-d:": "improvements suggested by users.",
+    "Option-c:": "test cases."
+  },
+  {
+    "Option-b:": "inspection.",
+    "Option-a:": "walkthrough.",
+    "Answer: ": "b",
+    "Question": "Q18 : What type of review requires formal entry and exit criteria, including metrics?",
+    "Option-d:": "post project review.",
+    "Option-c:": "management review."
+  },
+  {
+    "Option-b:": "as the first approach to deriving test cases.",
+    "Option-a:": "after more formal techniques have been applied.",
+    "Answer: ": "a",
+    "Question": "Q19: Error guessing is best used?",
+    "Option-d:": "after the system has gone live.",
+    "Option-c:": "by inexperienced testers."
+  },
+  {
+    "Option-b:": "unreachable (“dead”) code.",
+    "Option-a:": "the use of a variable before it has been defined",
+    "Answer: ": "c",
+    "Question": "Q20 : What can static analysis NOT find?",
+    "Option-d:": "array bound violations.",
+    "Option-c:": "memory leaks."
+  },
+  {
+    "Option-b:": "unreachable (“dead”) code.",
+    "Option-a:": "the use of a variable before it has been defined",
+    "Answer: ": "c",
+    "Question": "Q21 : What can static analysis NOT find?",
+    "Option-d:": "array bound violations.",
+    "Option-c:": "memory leaks."
+  }
+]
