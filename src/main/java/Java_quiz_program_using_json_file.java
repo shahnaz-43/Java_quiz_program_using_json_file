@@ -68,28 +68,28 @@ public class Java_quiz_program_using_json_file {
     public static void readQuizList() throws IOException, ParseException {
         Scanner input = new Scanner(System.in);
         int count = 0;
+        //int pos=0;
         String fileName = "C:/Users/samawat/IdeaProjects/Quiz/Quiz_test/src/main/resources/addQuiz.json";
         JSONParser jsonParser = new JSONParser();
         Object obj = jsonParser.parse(new FileReader(fileName));
-        JSONArray jsonArray = (JSONArray) obj;
+        JSONArray quizArray = (JSONArray) obj;
 
         for (int i = 1; i <= 5; i++) {
             int randNum = (int) (Math.random() * 20) + 1;
 
-            JSONObject jsonObject = (JSONObject) jsonArray.get(randNum);
+            JSONObject quizObject = (JSONObject) quizArray.get(randNum);
+            String que = (String) quizObject.get("Question");
+            String opt_a = (String) quizObject.get("Option-a:");
+            String otp_b = (String) quizObject.get("Option-b:");
+            String opt_c = (String) quizObject.get("Option-c:");
+            String opt_d = (String) quizObject.get("Option-d:");
+            String CorrectAnswer = (String) quizObject.get("Answer: ");
+            System.out.println(i + "." + que);
+            System.out.println("a." + opt_a);
+            System.out.println("b." + otp_b);
+            System.out.println("c." + opt_c);
+            System.out.println("d." + opt_d);
 
-            String Question = (String) jsonObject.get("Question");
-            String Option_a = (String) jsonObject.get("Option-a:");
-            String Option_b = (String) jsonObject.get("Option-b:");
-            String Option_c = (String) jsonObject.get("Option-c:");
-            String Option_d = (String) jsonObject.get("Option-d:");
-            String CorrectAnswer = (String) jsonObject.get("Answer: ");
-
-            System.out.println(i + "." + Question);
-            System.out.println("a." + Option_a);
-            System.out.println("b." + Option_b);
-            System.out.println("c." + Option_c);
-            System.out.println("d." + Option_d);
             System.out.println("Enter your answer:");
             String answer = input.nextLine();
 
@@ -100,6 +100,7 @@ public class Java_quiz_program_using_json_file {
                 System.out.println("Sorry..Not correct");
             }
             System.out.println("You got " + count + " out of 5");
+            System.out.println();
         }
 
     }
@@ -116,7 +117,7 @@ public class Java_quiz_program_using_json_file {
         if (choice == 1) {
             quesFile();
         } else if (choice == 2) {
-            System.out.println("You will be asked 5 questions, each questions has 1 marks");
+            System.out.println("You will be asked 5 questions,each questions has 1 marks");
             readQuizList();
         } else {
             System.out.println("Enter your choice");
